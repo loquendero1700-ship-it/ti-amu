@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para mi amochito ♡</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================================
+     PANTALLA INICIAL
+========================================== -->
+
+<main id="welcome-screen" class="screen">
+
+    <div class="decorations">
+
+        <span class="paw paw-1">🐾</span>
+        <span class="paw paw-2">🐾</span>
+        <span class="paw paw-3">🐾</span>
+
+        <span class="heart heart-1">♡</span>
+        <span class="heart heart-2">♡</span>
+        <span class="heart heart-3">♡</span>
+
+    </div>
+
+    <div class="cat-container">
+        <div class="cat">🐱</div>
+    </div>
+
+    <section class="welcome-content">
+
+        <p class="small-text">
+            Para my love ♡♡♡
+        </p>
+
+        <h1>
+            Miamor<br>
+            Esto es para ti ♡
+        </h1>
+
+        <p class="description">
+            Es algo que me tomo 2 dias
+            pero lo hice para ti amol ♡
+        </p>
+
+        <button id="openGift" class="gift-button">
+            <span>♡</span>
+            Deseas abrirlo?
+            <span>♡</span>
+        </button>
+
+    </section>
+
+    <div class="bottom-decoration">
+        <span>🐾</span>
+        <span>♡</span>
+        <span>🐾</span>
+    </div>
+
+</main>
+
+
+<!-- =========================================
+     ANIMACIÓN DEL SOBRE
+========================================== -->
+
+<main id="gift-screen" class="screen hidden">
+
+    <div class="gift-animation">
+
+        <div class="gift-cat">
+            🐱
+        </div>
+
+        <div class="envelope">
+
+            <div class="envelope-back"></div>
+
+            <div class="letter">
+                <span>Para mi amol</span>
+            </div>
+
+            <div class="envelope-front"></div>
+
+            <div class="envelope-flap"></div>
+
+        </div>
+
+        <p class="opening-message">
+            Abriendo tu regalito ♡♡♡
+        </p>
+
+    </div>
+
+</main>
+
+<!-- =========================================
+     NUESTRA HISTORIA
+========================================== -->
+
+<main id="story-screen" class="screen hidden">
+
+    <!-- PASO 1 -->
+    <section class="story-step active" id="step-1">
+
+        <div class="step-cat">🐱</div>
+
+        <p class="small-text">
+            Mucho gusto miamol, bienvenida a tu regalito
+        </p>
+
+        <h2>
+            La historia de nosotros 2 muamuamua
+        </h2>
+
+        <p class="step-description">
+            Y pensar que empezo haciendo un avatar y
+            actualmente nos amamos sin control ayyyyy ♡♡♡
+        </p>
+
+        <button class="next-button" data-next="step-2">
+            Dale aqui amoool ♡
+        </button>
+
+    </section>
+
+
+    <!-- PASO 2 -->
+    <!-- =========================================
+     PASO 2 - NUESTRA FECHA
+========================================= -->
+
+<section class="story-step" id="step-2">
+
+    <div class="step-cat">🐱</div>
+
+    <p class="small-text">
+        Todo comenzo aqui amol aqui aqui shi shi shi aqui shdashdhasas
+    </p>
+
+    <h2>
+        Nuestro primer texto amochito
+    </h2>
+
+    <div
+        class="memory-card"
+    >
+
+        <!-- FOTO -->
+        <button
+            class="memory-image"
+            type="button"
+            data-image="images/foto1.png"
+            data-title="Nuestra fecha"
+            data-text="Amor te juro que aca yo estuve tan nervioso por hablarte pero gracias a que tuve valentia los 2 estamos juntitos actual Y NO ME ARREPIENTO DE NADA MIAMOOOR"
+        >
+
+            <img
+                src="images/foto1.png"
+                alt="nomeacuerdo cuando fue pero fue en diciembre ajshdkgasjhkd"
+            >
+
+            <span class="image-hint">
+                Ver foto ♡
+            </span>
+
+        </button>
+
+
+        <!-- TEXTO -->
+        <div class="memory-text">
+
+            <span class="memory-date">
+                El primer texto asshdjagd
+            </span>
+
+            <p>
+                Y aqui podemos observar como un gerson
+                intenta con mucho nerviosismo decirle
+                a su futura esposa, "hermosa", jijijijiji.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="next-button"
+        data-next="step-3"
+    >
+        Siguiente ♡
+    </button>
+
+</section>
+
+
+    <!-- PASO 3 -->
+    <section class="story-step" id="step-3">
+
+    <div class="step-cat">🐾</div>
+
+    <p class="small-text">
+        He aqui algunos de nuestros bellisimos recuerdos miamor
+    </p>
+
+    <h2>
+        TE AMO CON TODA MI ALMA
+    </h2>
+
+    <p class="step-description">
+        Te juro mivida que estos recuerdos estan en mi corazón
+        por siempre y para siempre ♡
+    </p>
+
+
+    <div class="photo-grid">
+
+        <button
+            class="photo-card"
+            data-image="images/foto2.png"
+            data-title="De las primeras fotitos"
+            data-text="Miamor, estuve tan nervioso ese dia ajshda y pensar que incluso se me crasheo y tambien casi se me caen los controles ERA MI PRIMERA CITA EN LA VIDA JKSADAKJGH"
+        >
+
+            <img
+                src="images/foto2.png"
+                alt="TE AMO MIVIDA"
+            >
+
+            <span>
+                TE AMO MIVIDA
+            </span>
+
+        </button>
+
+
+        <button
+            class="photo-card"
+            data-image="images/foto3.png"
+            data-title="De las primeras fotos de ti para mi"
+            data-text="Ay miamor si supieras lo hermosa que te ves antes mis ojos, supieras el porque siempre para toda la vida te seguire ♡♡♡"
+        >
+
+            <img
+                src="images/foto3.png"
+                alt="AMORCHITO DE MI VIDA DE MI CORAZON Y DE MI ALMAAA"
+            >
+
+            <span>
+                AMORCHITO DE MI VIDA DE MI CORAZON Y DE MI ALMAAA
+            </span>
+
+        </button>
+
+
+        <button
+            class="photo-card"
+            data-image="images/foto4.png"
+            data-title="De nuestras fotos mas wonitas juntitos ♡"
+            data-text="Ay miamor, si supieras, me esforce mucho ese dia para terminar tu vestido y me alegra muuuucho que te haya gustado, me encanto mucho esa cita pero sobretodo, me encanto porque estas tu ♡♡♡"
+        >
+
+            <img
+                src="images/foto4.png"
+                alt="AMORCHITO QUE HERMOSA ESTAS AAAAAAAAAAAAAAAAA"
+            >
+
+            <span>
+                AMORCHITO QUE HERMOSA ESTAS AAAAAAAAAAAAAAAAA
+            </span>
+
+        </button>
+
+
+        <button
+            class="photo-card"
+            data-image="images/foto5.png"
+            data-title="De nuestras cita mas reciente"
+            data-text="Amochito ese dia te juro que me encanto todo con todito mi corazón, que tuviera un rol solo para mi 🥀🥀🥀 GRACIAS POR SER MI NOVIA MI ESPOSA MI TODO AAAAAAA"
+        >
+
+            <img
+                src="images/foto5.png"
+                alt="AMOCHITO TE AMO Y TE VOA COMEL AJHKDASJDGHA"
+            >
+
+            <span>
+                AMOCHITO TE AMO Y TE VOA COMEL AJHKDASJDGHA
+            </span>
+
+        </button>
+
+    </div>
+
+
+    <button
+        class="next-button"
+        data-next="step-4"
+    >
+        Tengo algo más que decirte mivida de mi alma♡
+    </button>
+
+</section>
+
+
+    <!-- PASO 4 -->
+    <section class="story-step" id="step-4">
+
+        <div class="step-cat">💗</div>
+
+        <p class="small-text">
+            Hay algo que debes recordar con tu corazoncito miamol
+        </p>
+
+        <h2>
+            Esto es lo que siento por ti amor
+        </h2>
+
+        <div class="love-card">
+
+            <p>
+                Miamor, no importa cuanto tiempo pase, no importa si estamos lejos o no puedo sentirte cerca
+                no importan los miles de kilometros que nos separan porque esto no va impedir que te ame
+                y recuerda miamor, tu me gustas tal y como eres, me encanta tu voz, tus ojos, tu cabello
+                tu cuerpo, tu alma, tu muslos asdha, y todo tu cuerpo todo tu corazon amor, LO AMOOOOOO
+            </p>
+
+            <p>
+                Sieeeeeeeeempre te amare mi pibble, i wahh your belly ♡♡♡♡♡♡♡♡
+            </p>
+
+            <span class="love-heart">
+                ♡
+            </span>
+
+        </div>
+
+        <button class="next-button" data-next="step-5">
+            TENGO UNA CARTA PARA TI MIAMOR 💌
+        </button>
+
+    </section>
+
+
+    <!-- PASO 5 -->
+    <section class="story-step" id="step-5">
+
+        <div class="letter-container">
+
+            <div class="letter-decoration">
+                🐱
+            </div>
+
+            <p class="small-text">
+                Una cartita para la niña mas linda del mundo
+            </p>
+
+            <h2>
+                Para mi amochito, la dueña de mi corazón
+            </h2>
+
+            <div class="letter-text">
+
+                <p>
+                    Amor de mi vida.
+                </p>
+
+                <p>
+                    Con esta mano levantaré tus penas. Tu copa nunca estará vacía,  
+                    porque yo seré tu vino. Con esta vela alumbraré tu camino en la oscuridad,
+                    Y con este anillo, te pido que siempre de por vida, estes conmigo.
+                </p>
+
+                <p>
+                    Atentamente, tu Victor, Ghostface, Absol, asi es amol tambien soy tu suga, pero sobrer todo, tu esposo yoyoyoyoyoyo.
+                    ti amuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu.
+                </p>
+
+            </div>
+
+        </div>
+
+        <button class="next-button" data-next="step-6">
+            SHI MIAMOR HAY ALGO MAS QUE DEBO DECIRTE
+        </button>
+
+    </section>
+
+
+    <!-- PASO 6 -->
+    <section class="story-step final-step" id="step-6">
+
+        <div class="final-cat">
+            🐱💕🐱
+        </div>
+
+        <p class="small-text">
+            Aunque este sea el final de la carta, mi amor no tiene final
+        </p>
+
+        <h2>
+            Porque mi amor por ti es como el mar, pueden encontrar el inicio pero nunca el final
+        </h2>
+
+        <p class="step-description">
+            Gracias por formar parte de mi vida y de mi corazón
+        </p>
+
+        <div class="final-message">
+
+            <span>
+                Te elegiría una y otra vez porque para mi eres mi Coraline, mi Emily, mi Chleo y yo tu Deuss, y estaremos juntos por siempre
+            </span>
+
+            <strong>
+                TE AMO ♡
+            </strong>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- =========================================
+     VISOR DE FOTOS
+========================================= -->
+
+<div id="photo-modal" class="photo-modal hidden">
+
+    <div class="photo-modal-overlay"></div>
+
+    <div class="photo-modal-content">
+
+        <button
+            id="closePhoto"
+            class="close-photo"
+            aria-label="Cerrar"
+        >
+            ×
+        </button>
+
+        <div class="modal-cat">
+            🐱
+        </div>
+
+        <img
+            id="modalImage"
+            src=""
+            alt=""
+        >
+
+        <h3 id="modalTitle">
+            Recuerdo
+        </h3>
+
+        <p id="modalText">
+            Aquí aparecerá el recuerdo.
+        </p>
+
+        <div class="modal-paws">
+            🐾　♡　🐾
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
